@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register book</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <main class="my-form">
+        <div class="cotainer">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                        <div class="card">
+                            <div class="card-header">Book Registration</div>
+                            <div class="card-body">
+                                
+                            </div>
+                            
+                            <div class="card-body">
+                                <form name="my-form" onsubmit="" action="upload.php" method="post">
+
+                                    <!-- search bar -->
+                                    <div class="form-group row">
+                                        <label for="Title" class="col-md-2"></label>
+                                        <div class="col-md-8">
+                                            <div class="input-group ">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text"><i class="fa fa-search"></i></span>
+                                                </div>
+                                                <input class="form-control" type="search" placeholder="Search..">
+                                                <button class="btn btn btn-success" type="submit">Search</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- add image button -->
+                                    <div class="form-group row">
+                                        <label for="Title" class="col-md-2"></label>
+                                        <div class="col-md-8">
+                                                <div class="images">
+                                                        <div class="pic">
+                                                          Add
+                                                        </div>
+                                                      </div>
+                                        </div>
+                                        
+                                        <label for="Title" class="col-md-2"></label>
+                                    </div>
+
+                                    <!-- add title of book -->
+                                    <div class="form-group row">
+                                        <label for="Title" class="col-md-2 col-form-label text-md-right">Title</label>
+                                        <div class="col-md-8">
+                                            <input type="text" id="title" class="form-control" name="title">
+                                        </div>
+                                    </div>
+    
+                                    <!-- add edidtion of book -->
+                                    <div class="form-group row">
+                                        <label for="edition" class="col-md-2 col-form-label text-md-right">Edition</label>
+                                        <div class="col-md-8">
+                                            <input type="text" id="edition" class="form-control" name="edition">
+                                        </div>
+                                    </div>
+    
+                                    <!-- add edidtion of book -->
+                                    <div class="form-group row">
+                                        <label for="edition" class="col-md-2 col-form-label text-md-right">Edition</label>
+                                        <div class="col-md-8">
+                                            <input type="text" id="edition" class="form-control" name="edition">
+                                        </div>
+                                    </div>
+    
+                                    <!-- add Price of book -->
+                                    <div class="form-group row">
+                                        <label for="price" class="col-md-2 col-form-label text-md-right">Price</label>
+                                        <div class="col-md-8">
+                                            <input type="text" id="price" class="form-control">
+                                        </div>
+                                    </div>
+    
+                                    <!-- add Description of book -->
+                                    <div class="form-group row">
+                                        <label for="Description" class="col-md-2 col-form-label text-md-right">Description:</label>
+                                        <div class="col-md-8">
+                                            <textarea class="form-control" rows="5" id="description" name="description"></textarea>
+                                        </div>
+                                        
+                                    </div> 
+    
+                                        <div class="col-md-8 offset-md-2">
+                                            <button type="submit" class="btn btn-primary">
+                                            Submit
+                                            </button>
+											<button type="Reset" class="btn btn-primary">
+                                            Reset
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    
+    </main>
+    <script src="./upload.js"></script>
+</body>
+</html> 
